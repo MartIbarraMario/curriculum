@@ -1,65 +1,65 @@
 ---
-author: kapnobatai136
-type: normal
-category: must-know
-tags:
-  - introduction
-  - linux
-links:
-  - >-
-    [Install
-    Ubuntu](https://ubuntu.com/tutorials/install-ubuntu-desktop#1-overview){website}
-  - >-
-    [Try
-    Ubuntu](https://ubuntu.com/tutorials/try-ubuntu-before-you-install#1-getting-started){website}
-practiceQuestion:
-  formats:
-    - fill-in-the-gap
-  context: relative
----
+ autor: kapnobatai136
+ tipo: normal
+ categoría: imprescindible
+ etiquetas:
+   - Introducción
+   - linux
+ Enlaces:
+   -> -
+     [Instalar en pc
+     Ubuntu] (https://ubuntu.com/tutorials/install-ubuntu-desktop#1-overview) {sitio web}
+   -> -
+     [Tratar
+     Ubuntu] (https://ubuntu.com/tutorials/try-ubuntu-before-you-install#1-getting-started) {sitio web}
+ práctica Pregunta:
+   formatos:
+     - llenar el vacío
+   contexto: relativo
+ ---
 
-# Hello Linux
-
-
----
-
-## Content
-
-All this talk, and we still haven't shown you how to use Linux 😅.
-
-> 💡 We're going to assume you have an installed Linux distribution. If you don't, check out the *Learn More* section for Ubuntu installation guides.
-
-![printing-hello-linux-in-shell](https://img.enkipro.com/b293f5a296e067d80f9dc7e77c7072d3.gif)
-
-This is the Linux terminal[1]! It's where you'll be typing most of the commands.
-
-What you see in the example is how to use the `echo` command to display some text.
-
-> 💡 We'll explain how printing works in the next workout.
-
-A **command** is just a piece of text that you type into the **terminal**. Think of this as an instruction that you give to your computer.
-
-The main part of the terminal that reads the commands and executes them is called a **shell**.
+ # Hola Linux
 
 
----
+ ---
 
-## Practice
+ ## Contenido
 
-In Linux, you type commands in the ???.
+ Toda esta charla, y todavía no te hemos mostrado cómo usar Linux 😅.
 
-- terminal
-- text editor app
-- search bar
+ > 💡 Asumiremos que tiene una distribución de Linux instalada.  Si no lo hace, consulte la sección * Más información * para obtener guías de instalación de Ubuntu.
+
+ ! [imprimiendo-hello-linux-in-shell] (https://img.enkipro.com/b293f5a296e067d80f9dc7e77c7072d3.gif)
+
+ ¡Este es el terminal de Linux [1]!  Es donde escribirás la mayoría de los comandos.
+
+ Lo que ve en el ejemplo es cómo usar el comando `echo` para mostrar algo de texto.
+
+ > 💡 Explicaremos cómo funciona la impresión en el próximo entrenamiento.
+
+ Un ** comando ** es solo un fragmento de texto que se escribe en la ** terminal **.  Piense en esto como una instrucción que le da a su computadora.
+
+ La parte principal del terminal que lee los comandos y los ejecuta se llama ** shell **.
 
 
----
+ ---
 
-## Footnotes
+ ## Práctica
 
-[1:Terminal]
-Similarly to how you can use a mouse to tell the computer to open a file, you can also type in a command in the **terminal**. 
+ En Linux, escribe comandos en ???.
 
-From opening files to increasing the computer volume, there's a terminal command for anything the computer can do.
+ - Terminal
+ - aplicación de edición de texto
+ - barra de búsqueda
 
-The term "terminal" originates from the first computers, which had a physical terminal that was used to communicate.
+
+ ---
+
+ ## Notas al pie
+
+ [1: Terminal]
+ De manera similar a cómo puede usar un mouse para decirle a la computadora que abra un archivo, también puede escribir un comando en la ** terminal **.
+
+ Desde abrir archivos hasta aumentar el volumen de la computadora, hay un comando de terminal para cualquier cosa que la computadora pueda hacer.
+
+ El término "terminal" se origina en las primeras computadoras, que tenían un terminal físico que se usaba para comunicarse.
