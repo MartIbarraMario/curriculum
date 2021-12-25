@@ -1,59 +1,59 @@
 ---
-author: tuwidc
-type: normal
-category: feature
-tags:
-  - file
-  - filetype
-  - terminal
-  - linux
-notes: >-
+ autor: tuwidc
+ tipo: normal
+ categoría: característica
+ etiquetas:
+   - Archivo
+   - Tipo de archivo
+   - Terminal
+   - linux
+ notas:> -
 
-  `file` tests each argument in an attempt to classify it. There are three sets
-  of tests, performed in this order: filesystem tests, magic tests, and language
-  tests.
+   `file` prueba cada argumento en un intento de clasificarlo.  Hay tres conjuntos
+   de pruebas, realizadas en este orden: pruebas del sistema de archivos, pruebas mágicas y lenguaje
+   pruebas.
 
-  The first test that succeeds causes the file type to be printed.
-revisionQuestion:
-  formats:
-    - fill-in-the-gap
-  context: relative
----
+   La primera prueba que se realiza correctamente hace que se imprima el tipo de archivo.
+ revisionPregunta:
+   formatos:
+     - llenar el vacío
+   contexto: relativo
+ ---
 
-# Identify files using the `file` command
-
-
----
-
-## Content
-
-Quickly identify the type of a file using the `file` command:
-
-```bash
-file /bin/bash
-/bin/bash: ELF 64-bit LSB executable,x86-64,
- version 1 (SYSV), dynamically linked
-
-file zte.py
-zte.py: ASCII text executable
-
-file messaggi.zip
-messaggi.zip: Zip archive data, at least 
- v1.0 to extract
-```
+ # Identificar archivos usando el comando `file`
 
 
----
+ ---
 
-## Revision
+ ## Contenido
 
-A valid output of the `file` command is:
+ Identifique rápidamente el tipo de un archivo usando el comando `file`:
 
-```bash
-file script.py
-???
-```
+ `` bash
+ archivo / bin / bash
+ / bin / bash: ELF ejecutable LSB de 64 bits, x86-64,
+  versión 1 (SYSV), vinculada dinámicamente
 
-- `script.py: ASCII text`
-- `-rw-rw-r-- 1 owner group 2048 19 Nov 2014 script.py`
-- `# script.py content`
+ archivo zte.py
+ zte.py: ejecutable de texto ASCII
+
+ archivo messaggi.zip
+ messaggi.zip: datos de archivo zip, al menos
+  v1.0 para extraer
+ ''
+
+
+ ---
+
+ ## Revisión
+
+ Una salida válida del comando `archivo` es:
+
+ `` bash
+ archivo script.py
+ ???
+ ''
+
+ - `script.py: texto ASCII`
+ - `-rw-rw-r-- 1 grupo propietario 2048 19 de noviembre de 2014 script.py`
+ - `# contenido script.py`
