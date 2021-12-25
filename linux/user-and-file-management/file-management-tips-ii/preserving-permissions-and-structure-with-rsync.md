@@ -1,53 +1,53 @@
 ---
-author: tuwidc
-type: normal
-category: how-to
-tags:
-  - linux
-  - ssh
-  - rsync
-  - backup
-  - sync
-  - archive
-revisionQuestion:
-  formats:
-    - fill-in-the-gap
-  context: relative
----
+ autor: tuwidc
+ tipo: normal
+ categoría: cómo hacerlo
+ etiquetas:
+   - linux
+   - ssh
+   - rsync
+   - respaldo
+   - sincronizar
+   - archivo
+ revisionPregunta:
+   formatos:
+     - llenar el vacío
+   contexto: relativo
+ ---
 
-# Preserving permissions and structure with `rsync`
-
-
----
-
-## Content
-
-To recursively copy from a remote system to your local system preserving permissions and structure you can use `rsync`. It works best for syncing the same files repeatedly over time:
-
-```bash
-rsync -a -v -e ssh server:/source/
-                           /dest/
-```
-
-where:
-
-```plain-text
--a   archive mode; it includes recursion
--v   increase verbosity
--e   specify the remote shell to use
-```
-
-Keep in mind that here we assume that we are using key based authentication and not password.
+ # Preservando permisos y estructura con `rsync`
 
 
----
+ ---
 
-## Revision
+ ## Contenido
 
-`rsync` works best for files/directories that 
+ Para copiar de forma recursiva desde un sistema remoto a su sistema local conservando los permisos y la estructura, puede usar `rsync`.  Funciona mejor para sincronizar los mismos archivos repetidamente a lo largo del tiempo:
 
-??? . 
+ `` bash
+ rsync -a -v -e servidor ssh: / fuente /
+                            / dest /
+ ''
 
-- need constant syncing
-- have to be downloaded only once
-- are system independent
+ donde:
+
+ `` texto plano
+ -un modo de archivo;  incluye recursividad
+ -v aumentar la verbosidad
+ -e especifica el shell remoto a usar
+ ''
+
+ Tenga en cuenta que aquí asumimos que estamos usando autenticación basada en clave y no contraseña.
+
+
+ ---
+
+ ## Revisión
+
+ `rsync` funciona mejor para archivos / directorios que
+
+ ???  .
+
+ - necesita sincronización constante
+ - debe descargarse solo una vez
+ - son independientes del sistema
