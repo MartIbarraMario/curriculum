@@ -1,71 +1,71 @@
 ---
-author: kapnobatai136
-type: normal
-category: must-know
-tags:
-  - introduction
-  - linux
-practiceQuestion:
-  formats:
-    - fill-in-the-gap
-  context: standalone
-revisionQuestion:
-  formats:
-    - fill-in-the-gap
-  context: standalone
----
+ autor: kapnobatai136
+ tipo: normal
+ categoría: imprescindible
+ etiquetas:
+   - Introducción
+   - linux
+ práctica Pregunta:
+   formatos:
+     - llenar el vacío
+   contexto: independiente
+ revisionPregunta:
+   formatos:
+     - llenar el vacío
+   contexto: independiente
+ ---
 
-# Common Terminology
-
-
----
-
-## Content
-
-Let's go over a few terms that you'll see a lot in this course.
-
-Linux comes with an improved version of the shell, which is called **bash**[1]. From now on, we'll be using these terms interchangeably.
-
-> 💡 **bash** also refers to the programming language used to interpret the code within the shell.
-
-Sometimes you might type some commands which are restricted. That's where the **root user** comes in. It's the unique admin user, with superpowers. Unsurprisingly, it's also called the **superuser**.
-
-The **package manager** removes the tedious process of installing or uninstalling apps. Think of a **package** as being an app.
-
-> 💡 As with all the skills in the app, if you want to access more advanced or specific content at any time, **feel free to use the *Skill Map* tab** to jump to the workouts most relevant for you.
-
-> 💬 Why are you interested in learning about Linux?
->
-> Leave a comment or view some of the other comments for inspiration before moving on.
+ # Terminología común
 
 
----
+ ---
 
-## Practice
+ ## Contenido
 
-The **root user** is also called the ???.
+ Repasemos algunos términos que verá mucho en este curso.
 
-- superuser
-- extrauser
-- super
-- best-user
+ Linux viene con una versión mejorada del shell, que se llama ** bash ** [1].  De ahora en adelante, usaremos estos términos indistintamente.
 
+ > 💡 ** bash ** también se refiere al lenguaje de programación utilizado para interpretar el código dentro del shell.
 
----
+ A veces, puede escribir algunos comandos que están restringidos.  Ahí es donde entra el ** usuario root **. Es el usuario administrador único, con superpoderes.  Como era de esperar, también se le llama ** superusuario **.
 
-## Revision
+ El ** administrador de paquetes ** elimina el tedioso proceso de instalar o desinstalar aplicaciones.  Piense en un ** paquete ** como una aplicación.
 
-In unix systems, commands are typed into the ??? and processed by the ???.
+ > 💡 Al igual que con todas las habilidades de la aplicación, si desea acceder a contenido más avanzado o específico en cualquier momento, ** no dude en utilizar la pestaña * Mapa de habilidades * ** para pasar a los entrenamientos más relevantes para usted.
 
-- terminal
-- shell
-- package manager
-- superuser manager
+ > 💬 ¿Por qué está interesado en aprender sobre Linux?
+ >
+ > Deje un comentario o vea algunos de los otros comentarios en busca de inspiración antes de continuar.
 
 
----
+ ---
 
-## Footnotes
+ ## Práctica
 
-[1:Bash]
-The name is an acronym for the "Bourne-Again SHell", a pun on the name of the Bourne shell (sh) it replaces (initially developed by Stephen Bourne).
+ El ** usuario root ** también se llama ???.
+
+ - superusuario
+ - usuario adicional
+ - súper
+ - mejor usuario
+
+
+ ---
+
+ ## Revisión
+
+ En los sistemas Unix, los comandos se escriben en ???  y procesado por el ???.
+
+ - Terminal
+ - cáscara
+ - gerente de empaquetación
+ - administrador de superusuario
+
+
+ ---
+
+ ## Notas al pie
+
+ [1: Bash]
+ El nombre es un acrónimo de "Bourne-Again SHell", un juego de palabras con el nombre del shell Bourne (sh) al que reemplaza (inicialmente desarrollado por Stephen Bourne).
