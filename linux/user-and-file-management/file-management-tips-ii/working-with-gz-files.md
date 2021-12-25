@@ -1,68 +1,68 @@
 ---
-author: danadelberg
-type: normal
-category: must-know
-tags:
-  - gzip
-links:
-  - >-
-    [www.cyberciti.biz](http://www.cyberciti.biz/faq/howto-compress-expand-gz-files/){website}
-practiceQuestion:
-  formats:
-    - fill-in-the-gap
-  context: relative
-revisionQuestion:
-  formats:
-    - fill-in-the-gap
-  context: relative
----
+ autor: UNKNOWN 
+ tipo: normal
+ categoría: imprescindible
+ etiquetas:
+   - gzip
+ Enlaces:
+   -> -
+     [www.cyberciti.biz] (http://www.cyberciti.biz/faq/howto-compress-expand-gz-files/) {sitio web}
+ práctica Pregunta:
+   formatos:
+     - llenar el vacío
+   contexto: relativo
+ revisionPregunta:
+   formatos:
+     - llenar el vacío
+   contexto: relativo
+ ---
 
-# Working with `.gz` files
-
-
----
-
-## Content
-
-Commonly, files for Linux will be compressed with `gzip`, a file format designed for the GNU Project. 
-
-To extract a `.gz` file, you can use the following commands interchangeably.
-
-```bash
-gzip -d file.gz 
-gunzip file.gz
-```
-
-The `-d` flag stands for decompress. To compress a file, omit the flag.
-
-```bash
-gzip file
-```
+ # Trabajar con archivos `.gz`
 
 
----
+ ---
 
-## Practice
+ ## Contenido
 
-The ??? flag is used to decompress files.
+ Normalmente, los archivos para Linux se comprimirán con `gzip`, un formato de archivo diseñado para el Proyecto GNU.
 
-- `-d`
-- `-c`
-- `-f`
-- `no flag`
+ Para extraer un archivo `.gz`, puede usar los siguientes comandos indistintamente.
+
+ `` bash
+ gzip -d archivo.gz
+ gunzip file.gz
+ ''
+
+ La bandera `-d` significa descomprimir.  Para comprimir un archivo, omita la bandera.
+
+ `` bash
+ archivo gzip
+ ''
 
 
----
+ ---
 
-## Revision
+ ## Práctica
 
-Complete the command to decompress `update.gz` :
+ El ???  bandera se utiliza para descomprimir archivos.
 
-```bash
-??? ??? update.gz
-```
+ - `-d`
+ - `-c`
+ - `-f`
+ - `sin bandera`
 
-- `gzip`
-- `-d`
-- `-r`
-- `unzip`
+
+ ---
+
+ ## Revisión
+
+ Complete el comando para descomprimir `update.gz`:
+
+ `` bash
+ ???  ???  update.gz
+ ''
+
+ - `gzip`
+ - `-d`
+ - `-r`
+ - `descomprimir`
