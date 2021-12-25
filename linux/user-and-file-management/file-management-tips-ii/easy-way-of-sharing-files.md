@@ -1,61 +1,61 @@
 ---
-author: catalin
-type: normal
-category: how-to
-revisionQuestion:
-  formats:
-    - fill-in-the-gap
-  context: relative
-links:
-  - >-
-    [WOOF](https://www.home.unix-ag.org/simon/woof.html){website}
+ autor: catalin
+ tipo: normal
+ categoría: cómo hacerlo
+ revisionPregunta:
+   formatos:
+     - llenar el vacío
+   contexto: relativo
+ Enlaces:
+   -> -
+     [WOOF] (https://www.home.unix-ag.org/simon/woof.html) {sitio web}
 
----
+ ---
 
-# Easy way of sharing files
-
-
----
-
-## Content
-
-File transfer on the network without setting up extra software can be easily achieved using the `woof` utility.
-
-`woof` (Web Offer One File) is a script and will run on any machine with *Python* installed.
-
-To download it, check the **Learn More** section.
-
-To share a file:
-
-```bash
-./woof /directory/file
-
-```
-
-This will give you a **URL** that can be typed in a browser and the download will begin.
-
-You can also share directories:
-
-```bash
-./woof -z /directory/
-```
-
-This will compress the directory into a **gzipped** tarball.
-
-You can also share `woof` itself:
-
-```bash
-./woof -s
-```
+ # Manera fácil de compartir archivos
 
 
----
+ ---
 
-## Revision
+ ## Contenido
 
-A quick way of sharing files is using ??? utility.
+ La transferencia de archivos en la red sin configurar software adicional se puede lograr fácilmente usando la utilidad `woof`.
 
-- woof
-- mv
-- ssh
-- share
+ `woof` (Web Offer One File) es un script y se ejecutará en cualquier máquina con * Python * instalado.
+
+ Para descargarlo, consulte la sección ** Más información **.
+
+ Para compartir un archivo:
+
+ `` bash
+ ./woof / directorio / archivo
+
+ ''
+
+ Esto le dará una ** URL ** que se puede escribir en un navegador y comenzará la descarga.
+
+ También puede compartir directorios:
+
+ `` bash
+ ./woof -z / directorio /
+ ''
+
+ Esto comprimirá el directorio en un tarball ** comprimido **.
+
+ También puedes compartir el propio "woof":
+
+ `` bash
+ ./woof -s
+ ''
+
+
+ ---
+
+ ## Revisión
+
+ Una forma rápida de compartir archivos es utilizar ???  utilidad.
+
+ - guau
+ - mv
+ - ssh
+ - Cuota
