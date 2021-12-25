@@ -1,44 +1,44 @@
 ---
-author: kapnobatai136
-type: normal
-category: must-know
-tags:
-  - introduction
-  - linux
-  - distributions
-links:
-  - '[DistroWatch](https://distrowatch.com/){website}'
-  - >-
-    [Linux
-    Distributions](https://en.wikipedia.org/wiki/List_of_Linux_distributions){website}
-practiceQuestion:
-  formats:
-    - fill-in-the-gap
-  context: relative
----
+ autor: kapnobatai136
+ tipo: normal
+ categoría: imprescindible
+ etiquetas:
+   - Introducción
+   - linux
+   - distribuciones
+ Enlaces:
+   - '[DistroWatch] (https://distrowatch.com/) {sitio web}'
+   -> -
+     [Linux
+     Distribuciones] (https://en.wikipedia.org/wiki/List_of_Linux_distributions) {sitio web}
+ práctica Pregunta:
+   formatos:
+     - llenar el vacío
+   contexto: relativo
+ ---
 
-# Which Linux?
-
-
----
-
-## Content
-
-Because of how popular and customizable Linux is, there are almost 600 different *flavors* available. In technical terms these are called **distributions**, or **distros** for short.
-
-Although it's good to have such variety, you might find yourself faced with [choice paralysis](https://en.wikipedia.org/wiki/Overchoice). Don't worry, we're here to help.
-
-If you're just starting out, we recommend **Ubuntu** (that's what we're using 👐). It's perfect for beginners, and has the added benefit of being one of the top used and supported distros.
-
-> 💡 Check the Learn More section if you want to discover more distros.
+ # ¿Qué Linux?
 
 
----
+ ---
 
-## Practice
+ ## Contenido
 
-Different *flavors* of Linux are called ???.
+ Debido a lo popular y personalizable que es Linux, hay casi 600 * sabores * diferentes disponibles.  En términos técnicos, se denominan ** distribuciones **, o ** distribuciones ** para abreviar.
 
-- distributions
-- distractions
-- bistros
+ Aunque es bueno tener tanta variedad, es posible que se enfrente a la [parálisis de elección] (https://en.wikipedia.org/wiki/Overchoice).  No se preocupe, estamos aquí para ayudarlo.
+
+ Si recién está comenzando, le recomendamos ** Ubuntu ** (eso es lo que estamos usando 👐).  Es perfecto para principiantes y tiene el beneficio adicional de ser una de las distribuciones más utilizadas y compatibles.
+
+ > 💡 Consulte la sección Más información si desea descubrir más distribuciones.
+
+
+ ---
+
+ ## Práctica
+
+ Los diferentes * sabores * de Linux se llaman ???.
+
+ - distribuciones
+ - distracciones
+ - bistrós
