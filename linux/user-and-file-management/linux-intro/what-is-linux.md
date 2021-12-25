@@ -1,62 +1,62 @@
 ---
-author: kapnobatai136
-type: normal
-category: must-know
-tags:
-  - introduction
-  - linux
-  - operating-system
-links:
-  - >-
-    [Image
-    Source](https://www.cyberciti.biz/humour/dad-what-are-clouds-made-of-in-it/){website}
-practiceQuestion:
-  formats:
-    - fill-in-the-gap
-  context: standalone
----
+ autor: kapnobatai136
+ tipo: normal
+ categoría: imprescindible
+ etiquetas:
+   - Introducción
+   - linux
+   - sistema operativo
+ Enlaces:
+   -> -
+     [Imagen
+     Fuente] (https://www.cyberciti.biz/humour/dad-what-are-clouds-made-of-in-it/) {sitio web}
+ práctica Pregunta:
+   formatos:
+     - llenar el vacío
+   contexto: independiente
+ ---
 
-# What's Linux?
-
-
----
-
-## Content
-
-To understand what Linux is, let's go back to the very basics of computing.
-
-A computer consists of physical parts, called *hardware*, and written programs, called *software*. 
-
-Most computers have a special program that manages all other programs and helps them use the underlying hardware.
-
-That program is called an **operating system**, or **OS** for short.
-
-Although commercial computers that most of us use every day are mainly using Windows or MacOS, Linux is by far the most versatile OS.
-
-> 💡Fun fact! The Linux OS is inspired by another older OS called Unix[1]. The name "Linux" is a combination of its creator's name, "Linus", and "Unix".
-
-From cloud storage and space rockets, to your car or refrigerator, there's a high chance that they all run on Linux.
-
-![what-are-clouds-made-of](https://img.enkipro.com/e763d343e3f748f707da85221e99d44d.png)
+ # ¿Qué es Linux?
 
 
----
+ ---
 
-## Practice
+ ## Contenido
 
-Linux is an ???.
+ Para comprender qué es Linux, volvamos a los conceptos básicos de la informática.
 
-- operating system
-- ordering system
-- operating software
-- ordering software
+ Una computadora consta de partes físicas, llamadas * hardware *, y programas escritos, llamados * software *.
+
+ La mayoría de las computadoras tienen un programa especial que administra todos los demás programas y les ayuda a usar el hardware subyacente.
+
+ Ese programa se llama ** sistema operativo **, o ** SO ** para abreviar.
+
+ Aunque las computadoras comerciales que la mayoría de nosotros usamos todos los días usan principalmente Windows o MacOS, Linux es, con mucho, el sistema operativo más versátil.
+
+ > 💡 ¡Dato curioso!  El sistema operativo Linux está inspirado en otro sistema operativo más antiguo llamado Unix [1].  El nombre "Linux" es una combinación del nombre de su creador, "Linus" y "Unix".
+
+ Desde el almacenamiento en la nube y los cohetes espaciales hasta su automóvil o refrigerador, existe una alta probabilidad de que todos se ejecuten en Linux.
+
+ ! [de qué están hechas las nubes] (https://img.enkipro.com/e763d343e3f748f707da85221e99d44d.png)
 
 
----
+ ---
 
-## Footnotes
+ ## Práctica
 
-[1:Unix]
-Unix is the first major operating system that made it easier to write and manage programs.
+ Linux es un ???.
 
-It was created in 1969 at the famous [Bell Labs](https://en.wikipedia.org/wiki/Bell_Labs).
+ - sistema operativo
+ - sistema de pedidos
+ - software operativo
+ - software de pedidos
+
+
+ ---
+
+ ## Notas al pie
+
+ [1: Unix]
+ Unix es el primer sistema operativo importante que facilitó la escritura y la administración de programas.
+
+ Fue creado en 1969 en los famosos [Bell Labs] (https://en.wikipedia.org/wiki/Bell_Labs).
