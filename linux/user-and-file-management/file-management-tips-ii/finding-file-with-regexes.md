@@ -1,68 +1,68 @@
 ---
-author: tuwidc
-type: normal
-category: feature
-tags:
-  - find
-  - bash
-  - linux
-  - regex
-notes: ''
-practiceQuestion:
-  formats:
-    - fill-in-the-gap
-    - type-in-the-gap
-  context: relative
-revisionQuestion:
-  formats:
-    - fill-in-the-gap
-  context: relative
----
+ autor: tuwidc
+ tipo: normal
+ categoría: característica
+ etiquetas:
+   - encontrar
+   - golpe
+   - linux
+   - expresión regular
+ notas: ''
+ práctica Pregunta:
+   formatos:
+     - llenar el vacío
+     - escriba en el espacio
+   contexto: relativo
+ revisionPregunta:
+   formatos:
+     - llenar el vacío
+   contexto: relativo
+ ---
 
-# Finding file with regexes
-
-
----
-
-## Content
-
-The `find` command supports regular expressions. Using them can save you the extra step of piping search results to `grep`.  
-
-For instance:
-
-```plain-text
-find -type f -regex ".*/A[^/]+\.sh$"
-```
-
-translates to "find any files that starts with A and ends with a sh extension".
+ # Encontrar archivo con expresiones regulares
 
 
----
+ ---
 
-## Practice
+ ## Contenido
 
-Find files that have a title containing `script` as a substring and ending in `.py` :
+ El comando `buscar` admite expresiones regulares.  Usarlos puede ahorrarle el paso adicional de canalizar los resultados de la búsqueda a `grep`.
 
-```bash
-??? ??? ??? 
-    ??? '.*script.*\.py'
-```
+ Por ejemplo:
 
-- `find`
-- `-type`
-- `f`
-- `-regex`
-- `file`
-- `-f`
-- `fnd`
+ `` texto plano
+ buscar -tipo f -regex ". * / A [^ /] + \. sh $"
+ ''
+
+ se traduce como "busque cualquier archivo que comience con A y termine con una extensión sh".
 
 
----
+ ---
 
-## Revision
+ ## Práctica
 
-Searching for a file using regular expressions can be done by the ??? command.
+ Busque archivos que tengan un título que contenga "script" como subcadena y que termine en ".py":
 
-- `find`
-- `search`
-- `lf`
+ `` bash
+ ???  ???  ???
+     ???  '. * script. * \. py'
+ ''
+
+ - `encontrar`
+ - `-tipo`
+ - `f`
+ - `-regex`
+ - `archivo`
+ - `-f`
+ - `fnd`
+
+
+ ---
+
+ ## Revisión
+
+ La búsqueda de un archivo utilizando expresiones regulares se puede realizar con ???  mando.
+
+ - `encontrar`
+ - `buscar`
+ - `lf`
