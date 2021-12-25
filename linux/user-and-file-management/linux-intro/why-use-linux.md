@@ -1,60 +1,60 @@
 ---
-author: kapnobatai136
-type: normal
-category: must-know
-tags:
-  - introduction
-  - linux
-links:
-  - >-
-    [Stack Overflow Survey
-    2019](https://insights.stackoverflow.com/survey/2019#technology-_-platforms){website}
-practiceQuestion:
-  formats:
-    - fill-in-the-gap
-  context: relative
----
+ autor: kapnobatai136
+ tipo: normal
+ categoría: imprescindible
+ etiquetas:
+   - Introducción
+   - linux
+ Enlaces:
+   -> -
+     [Encuesta de desbordamiento de pila
+     2019] (https://insights.stackoverflow.com/survey/2019#technology-_-platforms) {sitio web}
+ práctica Pregunta:
+   formatos:
+     - llenar el vacío
+   contexto: relativo
+ ---
 
-# Why Use Linux?
-
-
----
-
-## Content
-
-There are many reasons to choose Linux over other operating systems. Let's start with the fact that **it's completely free to use**.
-
-To be more specific, all of Linux is *open-source*[1]. 
-
-As the code is publicly available, it's somewhat easy to extend a Linux distro and shape it however you want. Because of this, there are about 600 *flavors* of Linux available. We'll cover some of them later.
-
-> 💡Fun fact: the most popular OS for mobile phones, Android, is a modified version of Linux  
-
-Here are a few more reasons to use Linux:
-
-- It *works with any hardware* (from low-end to high-end)
-- It's *secure* (continuously reviewed by experts)
-- It's *fully customizable* (you can change anything you want!)
-
-For these reasons, Linux is the most popular platform used by developers (according to Stack Overflow; see the Learn More link).
+ # ¿Por qué usar Linux?
 
 
----
+ ---
 
-## Practice
+ ## Contenido
 
-Linux is an ???-??? operating system.
+ Hay muchas razones para elegir Linux sobre otros sistemas operativos.  Comencemos con el hecho de que ** es de uso completamente gratuito **.
 
-- open
-- source
-- closed
-- code
-- no
+ Para ser más específico, todo Linux es * de código abierto * [1].
+
+ Como el código está disponible públicamente, es algo fácil extender una distribución de Linux y darle la forma que desee.  Debido a esto, hay alrededor de 600 * versiones * de Linux disponibles.  Cubriremos algunos de ellos más tarde.
+
+ > 💡 Dato curioso: el sistema operativo más popular para teléfonos móviles, Android, es una versión modificada de Linux
+
+ Aquí hay algunas razones más para usar Linux:
+
+ - Funciona * con cualquier hardware * (de gama baja a gama alta)
+ - Es * seguro * (revisado continuamente por expertos)
+ - Es * totalmente personalizable * (¡puedes cambiar lo que quieras!)
+
+ Por estas razones, Linux es la plataforma más popular utilizada por los desarrolladores (según Stack Overflow; consulte el enlace Más información).
 
 
----
+ ---
 
-## Footnotes
+ ## Práctica
 
-[1:Open-Source]
-This means that all of the code that makes Linux is available to *everyone* and it can be freely redistributed and modified.
+ Linux es un ??? - ???  sistema operativo.
+
+ - abierto
+ - fuente
+ - cerrado
+ - código
+ - No
+
+
+ ---
+
+ ## Notas al pie
+
+ [1: código abierto]
+ Esto significa que todo el código que hace que Linux esté disponible para * todos * y se puede redistribuir y modificar libremente.
