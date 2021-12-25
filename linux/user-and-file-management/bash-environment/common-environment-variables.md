@@ -1,51 +1,54 @@
----
-author: jfarmer
-type: normal
-category: must-know
-tags:
-  - introduction
-  - linux
-  - environment
-  - variables
-revisionQuestion:
-  formats:
-    - fill-in-the-gap
-    - type-in-the-gap
-  context: relative
----
-
-# Common Environment Variables
-
-
----
-
-## Content
-
-On Linux (and other Unix-based operating systems), common environment variables include:
-
-- `HOME`, which contains the current user's home directory. That is the top-level directory to most other directories.
-
-- `PATH`, which contains a list of directories where to look for a command. When a user types `echo` in the terminal, Linux finds the `echo` program in one of the directories listed in `PATH` and executes it.
-
-- `PWD `, which stands for **Present Working Directory** and holds the path to the directory you're currently in. This is usually called the "working directory".
-
-- `EDITOR`, which specifies the default text editor.
-
-- `LANG`, which specifies the user's language, e.g., a value of `pt_BR` signifies that the user prefers Brazillian Portuguese.
-
-
----
-
-## Revision
-
-Print the value of the environmental variable `LANG` : 
-
-```bash
-??? ???
-```
-
-- `echo`
-- `$LANG`
-- `lang`
-- `$lang`
-- `ls`
+  ---
+   autor: jfarmer
+   tipo: normal
+   categoría: imprescindible
+   etiquetas:
+  
+     - Introducción
+     - linux
+     - ambiente
+     - variables
+     
+  
+   revisionPregunta:
+     formatos:
+       - llenar el vacío
+       - escriba en el espacio
+     contexto: relativo
+   ---
+  
+   # Variables de entorno comunes
+  
+  
+   ---
+  
+   ## Contenido
+  
+   En Linux (y otros sistemas operativos basados en Unix), las variables de entorno comunes incluyen:
+  
+   - `HOME`, que contiene el directorio de inicio del usuario actual.  Ese es el directorio de nivel superior para la mayoría de los demás directorios.
+  
+   - `PATH`, que contiene una lista de directorios donde buscar un comando.  Cuando un usuario escribe `echo` en la terminal, Linux encuentra el programa` echo` en uno de los directorios listados en `PATH` y lo ejecuta.
+  
+   - `PWD`, que significa ** Directorio de trabajo actual ** y contiene la ruta al directorio en el que se encuentra actualmente. Por lo general, se denomina "directorio de trabajo".
+  
+   - `EDITOR`, que especifica el editor de texto predeterminado.
+  
+   - `LANG`, que especifica el idioma del usuario, por ejemplo, un valor de` pt_BR` significa que el usuario prefiere el portugués brasileño.
+  
+  
+   ---
+  
+   ## Revisión
+  
+   Imprime el valor de la variable ambiental `LANG`:
+  
+   `` bash
+   ???  ???
+   ''
+  
+   - `echo`
+   - `$ LANG`
+   - `lang`
+   - `$ lang`
+   - `ls`
